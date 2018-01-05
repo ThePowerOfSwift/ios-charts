@@ -13,8 +13,8 @@
 		AE042D9B1FF506CC00FE35EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE042D9A1FF506CC00FE35EA /* Assets.xcassets */; };
 		AE042D9E1FF506CC00FE35EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE042D9C1FF506CC00FE35EA /* LaunchScreen.storyboard */; };
 		AE042DA61FF5087E00FE35EA /* chart.html in Resources */ = {isa = PBXBuildFile; fileRef = AE042DA51FF5087E00FE35EA /* chart.html */; };
-		AE60CD701FF5198200850298 /* fusioncharts.widgets.js in Resources */ = {isa = PBXBuildFile; fileRef = AE60CD6E1FF5198100850298 /* fusioncharts.widgets.js */; };
 		AE60CD711FF5198200850298 /* fusioncharts.js in Resources */ = {isa = PBXBuildFile; fileRef = AE60CD6F1FF5198100850298 /* fusioncharts.js */; };
+		AEF5085D1FFE58B6001CF363 /* fusioncharts.charts.js in Resources */ = {isa = PBXBuildFile; fileRef = AEF5085C1FFE58B6001CF363 /* fusioncharts.charts.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +26,8 @@
 		AE042D9D1FF506CC00FE35EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE042D9F1FF506CC00FE35EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE042DA51FF5087E00FE35EA /* chart.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = chart.html; sourceTree = "<group>"; };
-		AE60CD6E1FF5198100850298 /* fusioncharts.widgets.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = fusioncharts.widgets.js; sourceTree = "<group>"; };
 		AE60CD6F1FF5198100850298 /* fusioncharts.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = fusioncharts.js; sourceTree = "<group>"; };
+		AEF5085C1FFE58B6001CF363 /* fusioncharts.charts.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = fusioncharts.charts.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 		AE042D921FF506CC00FE35EA /* FusionCharts */ = {
 			isa = PBXGroup;
 			children = (
+				AEF5085C1FFE58B6001CF363 /* fusioncharts.charts.js */,
 				AE60CD6F1FF5198100850298 /* fusioncharts.js */,
-				AE60CD6E1FF5198100850298 /* fusioncharts.widgets.js */,
 				AE042D931FF506CC00FE35EA /* AppDelegate.swift */,
 				AE042D951FF506CC00FE35EA /* ViewController.swift */,
 				AE042D971FF506CC00FE35EA /* Main.storyboard */,
@@ -132,9 +132,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE60CD701FF5198200850298 /* fusioncharts.widgets.js in Resources */,
 				AE042D9E1FF506CC00FE35EA /* LaunchScreen.storyboard in Resources */,
 				AE042D9B1FF506CC00FE35EA /* Assets.xcassets in Resources */,
+				AEF5085D1FFE58B6001CF363 /* fusioncharts.charts.js in Resources */,
 				AE60CD711FF5198200850298 /* fusioncharts.js in Resources */,
 				AE042D991FF506CC00FE35EA /* Main.storyboard in Resources */,
 				AE042DA61FF5087E00FE35EA /* chart.html in Resources */,
